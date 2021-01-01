@@ -3,7 +3,7 @@ About: draw Feynman Diagram using PyFeyn
 
 Reference: https://pyfeyn.hepforge.org
 
-Python enviroment and installation: use a virtrual enviroment because there are different versions of Python, Pip, pyx 
+Python enviroment and installation: use a virtrual enviroment because there are different versions of Python, Pip, pyx on macbook OS 10.15.6 
   # using virtual enviroment (do this only once)
     virtualenv venv
 
@@ -19,6 +19,9 @@ Python enviroment and installation: use a virtrual enviroment because there are 
 
     # download pyfeyn-1.0.0.tar.gz, install it following guide from https://pyfeyn.hepforge.org
       python setup.py install 
+
+Use PyFeyn: a message of "hepnicenames.sty" will show, it is not a problem, since hepnames is installed and it provides a pair of Latex packages of heppennames and hepnicenames
+  # import pyfeyn
 
 Diagrams:
   Feynman diagrams after learning the examples from https://pyfeyn.hepforge.org
