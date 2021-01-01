@@ -1,0 +1,24 @@
+
+About: draw Feynman Diagram using PyFeyn
+
+Reference: https://pyfeyn.hepforge.org
+
+Python enviroment and installation: use a virtrual enviroment because there are different versions of Python, Pip, pyx 
+  # using virtual enviroment (do this only once)
+    virtualenv venv
+
+  # active virtualenv (do whenever you use it)
+    source venv/bin/activate
+
+  # deactive (after you use it)
+    deactive
+
+  # under virturalevn
+    # use pyx 0.14, not 0.15
+      pip install pyx==0.14
+
+    # download pyfeyn-1.0.0.tar.gz, install it following guide from https://pyfeyn.hepforge.org
+      python setup.py install 
+
+Diagrams:
+  Feynman diagrams after learning the examples from https://pyfeyn.hepforge.org
