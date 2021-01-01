@@ -3,7 +3,7 @@ About: draw Feynman Diagram using PyFeyn
 
 Reference: https://pyfeyn.hepforge.org
 
-Python enviroment and installation: use a virtrual enviroment because there are different versions of Python, Pip, pyx on macbook OS 10.15.6 
+Python enviroment and installation: use a virtrual enviroment because there are different versions of Python, Pip, pyx on my macbook OS 10.15.6 
   # using virtual enviroment (do this only once)
     virtualenv venv
 
